@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31320.298
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nethereum.CheckBalance", "Nethereum.CheckBalance\Nethereum.CheckBalance.csproj", "{D2499425-F78D-464B-A462-EE98A0D3E4CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddCoingeckoToTokens", "AddCoingeckoToTokens\AddCoingeckoToTokens.csproj", "{36A4D248-DD20-4E05-8C84-82D81D671B9A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{D2499425-F78D-464B-A462-EE98A0D3E4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2499425-F78D-464B-A462-EE98A0D3E4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2499425-F78D-464B-A462-EE98A0D3E4CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36A4D248-DD20-4E05-8C84-82D81D671B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36A4D248-DD20-4E05-8C84-82D81D671B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36A4D248-DD20-4E05-8C84-82D81D671B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36A4D248-DD20-4E05-8C84-82D81D671B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
