@@ -253,6 +253,10 @@
       "url": "Nethereum.CheckBalance.styles.css"
     },
     {
+      "hash": "sha256-AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+      "url": ".nojekyll"
+    },
+    {
       "hash": "sha256-Z6K2N0LHKAkCobJhqVcHanQt9GoUTZu5F+c+lvJlrLE=",
       "url": "CNAME"
     },
@@ -361,5 +365,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "XJ6j8N1q"
+  "version": "u64lKkPZ"
 };
