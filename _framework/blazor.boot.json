@@ -8,7 +8,7 @@
   "resources": {
     "assembly": {
       "Common.Logging.Core.dll": "sha256-N1etuvirNg6bPBNa9k+tAlMp8GSLrLgHasZqPu3b0Qo=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-A\/CCWtb57S2jsZKympvhexLTFipovJLpXGdyhjxE42c=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-9s4HVjMmE60tXHVgkVyFLkazXqR18ZFmhuwUuK\/X8UQ=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-eIlcNXQBMU\/VCuX7kh5pQnUvxppmafwyEG5gZRoDodw=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-EgGZtTe5Q60S0RR9iQI5o0BQepCG4oiNAYDYN13A\/mY=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-zDm1W+8xhczn35jGLuz5LXoFyoy4qDZrLxHkPX5VLW8=",
@@ -24,7 +24,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-x78akTZi8gS99VFtd3mo5t+TqAMNsg095whYeUa6Hgs=",
       "Microsoft.JSInterop.dll": "sha256-5G\/L6Se+LRjFkbjPKen0wEEkozRvLdGvZXZOFjSEGJc=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-YfVZfxhoas6pRQHYgBtjd+galzODg8CnJVGMggxGeo8=",
-      "Nethereum.CheckBalance.dll": "sha256-uiWAG7GLCbnHJc8HpdqD\/T5RRYUtIte34SB8pFbaGnQ=",
+      "Nethereum.CheckBalance.dll": "sha256-Voi+bQDSrIhrDYVT3eaYxsR6qdoeKd6lF7vBdgGd0Xc=",
       "Nethereum.LiteFx.dll": "sha256-gp\/dchmCbboIW\/8X8W4KFnCqIL70XqehFIQMwof2wiA=",
       "netstandard.dll": "sha256-6txLPAf+57K65rjjPofY3YC2bDf10y2aqg6Pfixknxg=",
       "Newtonsoft.Json.dll": "sha256-gkIipvi93hhq6PE+WvoKU82xCfBcfl2PTHNjD3enxt4=",

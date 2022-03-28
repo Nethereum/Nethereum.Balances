@@ -13,7 +13,7 @@
       "url": "_framework\/dotnet.wasm"
     },
     {
-      "hash": "sha256-tp+Pz6LCdhHrtazyvbR7d6bahAd+V6rxHLv3vvSe8tI=",
+      "hash": "sha256-xH72tLkk+Yn6qf5StRRZSqTcjMUWLL\/ghplIvY2sFU4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -21,7 +21,7 @@
       "url": "_framework\/Common.Logging.Core.dll"
     },
     {
-      "hash": "sha256-A\/CCWtb57S2jsZKympvhexLTFipovJLpXGdyhjxE42c=",
+      "hash": "sha256-9s4HVjMmE60tXHVgkVyFLkazXqR18ZFmhuwUuK\/X8UQ=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -85,7 +85,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-uiWAG7GLCbnHJc8HpdqD\/T5RRYUtIte34SB8pFbaGnQ=",
+      "hash": "sha256-Voi+bQDSrIhrDYVT3eaYxsR6qdoeKd6lF7vBdgGd0Xc=",
       "url": "_framework\/Nethereum.CheckBalance.dll"
     },
     {
@@ -365,5 +365,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "83nQfLBd"
+  "version": "ZyyOE7vC"
 };
