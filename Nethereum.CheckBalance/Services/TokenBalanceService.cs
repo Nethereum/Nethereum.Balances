@@ -94,11 +94,19 @@ namespace Nethereum.CheckBalance
 
                 foreach (var balance in currentBalances)
                 {
+                    
                     if (balance.GeckoToken != null)
                     {
-                        var price = prices[balance.GeckoToken.Id.ToLower()];
-                        balance.Price = price["usd"];
-                        balance.Value = balance.Price * balance.Balance;
+                        try
+                        {
+                            var price = prices[balance.GeckoToken.Id.ToLower()];
+                            balance.Price = price["usd"];
+                            balance.Value = balance.Price * balance.Balance;
+                        }
+                        catch
+                        {
+
+                        }
                     }
                 }
             }

@@ -9,10 +9,15 @@
 <h1>Token Balances</h1>
 
 <div class="top-row px-4">
+    <div class="form-group">
+        <label for="url">Rpc Url</label>
+        <input type="text" class="form-control" id="urlInput" aria-describedby="urlHelp" placeholder="Enter rpc url" @bind="@RpcUrl" />
+        <small id="urlHelp" class="form-text text-muted">The rpc url</small>
+    </div>
     <div class="form-row">
         @if (userAccounts is {Count: > 0 })
         {
-            <select value="@selectedAccount" @onchange="SelectAccount" >
+            <select value="@selectedAccount" @onchange="SelectAccount">
                 @foreach (var accountItem in userAccounts)
                 {
                     <option value="@accountItem">@accountItem</option>
@@ -22,13 +27,13 @@
             <button @onclick="@(() => RemoveAccount())" disabled="@Loading">Remove Account</button>
         }
         <EditForm class="form-inline ml-lg-4 col-auto" Model="@editAccount" Context="formContext">
-            <DataAnnotationsValidator />
-            <ValidationSummary />
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
 
-            <InputText id="name" @bind-Value="editAccount.Address" placeholder="Enter addresss .. " />
+            <InputText id="name" @bind-Value="editAccount.Address" placeholder="Enter addresss .. "/>
 
             <button type="submit" @onclick="@(() => AddAccount(formContext))" disabled="@Loading">Add Account to check balances</button>
-           
+
         </EditForm>
     </div>
 </div>
@@ -79,7 +84,7 @@
         LocalFormat.CurrencySymbol = "$";
         await GetAccounts();
 
-        var web3 = new Web3("https://mainnet.infura.io/v3/ddd5ed15e8d443e295b696c0d07c8b02");
+        var web3 = new Web3(RpcUrl);
         _tokenBalanceService = new TokenBalanceService(Http, web3);
     }
 
@@ -141,6 +146,7 @@
     private string selectedAccount;
     private string checkingBalanceAccount;
     public NumberFormatInfo LocalFormat { get; set; }
+    public string RpcUrl = "https://mainnet.infura.io/v3/ddd5ed15e8d443e295b696c0d07c8b02";
 
 
 
