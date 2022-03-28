@@ -1,5 +1,5 @@
 # Nethereum.Balances
-Easily get all your token balances at http://balance.nethereum.com/
+Easily get all your token balances at https://balance.nethereum.com/
 
 ![image](https://user-images.githubusercontent.com/562371/127461803-08825a23-35de-4831-9a5f-aee76c4dc04b.png)
 
